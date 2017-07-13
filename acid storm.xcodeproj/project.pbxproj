@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C016EDD19E1D19B0056789F /* manSkeleton.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C016EDC19E1D19B0056789F /* manSkeleton.atlas */; };
+		4C016EDF19E219640056789F /* manPumpkin.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C016EDE19E219640056789F /* manPumpkin.atlas */; };
+		4C016EE119E2201E0056789F /* manRed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C016EE019E2201E0056789F /* manRed.atlas */; };
+		4C016EE319E2256D0056789F /* ShopScene.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C016EE219E2256D0056789F /* ShopScene.atlas */; };
+		4C2A813419A7E62900B1BD61 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2A813319A7E62900B1BD61 /* drop.png */; };
+		4C34BCF919A43502002C606A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCF819A43502002C606A /* Foundation.framework */; };
+		4C34BCFB19A43502002C606A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCFA19A43502002C606A /* CoreGraphics.framework */; };
+		4C34BCFD19A43502002C606A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCFC19A43502002C606A /* UIKit.framework */; };
+		4C34BCFF19A43502002C606A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCFE19A43502002C606A /* SpriteKit.framework */; };
+		4C34BD0519A43502002C606A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C34BD0319A43502002C606A /* InfoPlist.strings */; };
+		4C34BD0719A43502002C606A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BD0619A43502002C606A /* main.m */; };
+		4C34BD0B19A43502002C606A /* TDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BD0A19A43502002C606A /* TDGAppDelegate.m */; };
+		4C34BD0E19A43502002C606A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C34BD0C19A43502002C606A /* Main_iPhone.storyboard */; };
+		4C34BD1119A43502002C606A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C34BD0F19A43502002C606A /* Main_iPad.storyboard */; };
+		4C34BD1419A43502002C606A /* TDGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BD1319A43502002C606A /* TDGViewController.m */; };
+		4C34BD1719A43502002C606A /* TDGGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BD1619A43502002C606A /* TDGGameScene.m */; };
+		4C34BD1B19A43502002C606A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C34BD1A19A43502002C606A /* Images.xcassets */; };
+		4C34BD2219A43502002C606A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BD2119A43502002C606A /* XCTest.framework */; };
+		4C34BD2319A43502002C606A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCF819A43502002C606A /* Foundation.framework */; };
+		4C34BD2419A43502002C606A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34BCFC19A43502002C606A /* UIKit.framework */; };
+		4C34BD2C19A43502002C606A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C34BD2A19A43502002C606A /* InfoPlist.strings */; };
+		4C34BD2E19A43502002C606A /* Acid_StormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34BD2D19A43502002C606A /* Acid_StormTests.m */; };
+		4C45DA7F19ABF6D5007C14DB /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C45DA7E19ABF6D5007C14DB /* PlayButton.png */; };
+		4C45DA8619AC023A007C14DB /* MenuSceneSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C45DA8519AC023A007C14DB /* MenuSceneSuper.m */; };
+		4C4728E819B167E400D84114 /* manStillFrames.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C4728E719B167E400D84114 /* manStillFrames.atlas */; };
+		4C4951E419A9088000CC2CD1 /* acidBubble.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C4951E319A9088000CC2CD1 /* acidBubble.atlas */; };
+		4C553F1519BA23F600ED73D3 /* GameCenterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553F1419BA23F600ED73D3 /* GameCenterButton.png */; };
+		4C553F1719BA251C00ED73D3 /* ShopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C553F1619BA251C00ED73D3 /* ShopButton.png */; };
+		4C69E32519B3A55C00BB0947 /* BG_Loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C69E32019B3A55C00BB0947 /* BG_Loop.wav */; };
+		4C69E32619B3A55C00BB0947 /* bloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C69E32119B3A55C00BB0947 /* bloop.wav */; };
+		4C69E32919B3A67000BB0947 /* TDGAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C69E32819B3A67000BB0947 /* TDGAudio.m */; };
+		4C69E32B19B3B3A700BB0947 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C69E32A19B3B3A700BB0947 /* AVFoundation.framework */; };
+		4C69E32D19B3B3B400BB0947 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C69E32C19B3B3B400BB0947 /* AudioToolbox.framework */; };
+		4C72806419B2269E005790FC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72806319B2269E005790FC /* GameKit.framework */; };
+		4C94804419ACEF93002DA7BB /* manBlack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94803D19ACEF93002DA7BB /* manBlack.atlas */; };
+		4C94804519ACEF93002DA7BB /* manBlue.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94803E19ACEF93002DA7BB /* manBlue.atlas */; };
+		4C94804619ACEF93002DA7BB /* manGreen.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94803F19ACEF93002DA7BB /* manGreen.atlas */; };
+		4C94804719ACEF93002DA7BB /* manNone.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94804019ACEF93002DA7BB /* manNone.atlas */; };
+		4C94804819ACEF93002DA7BB /* manPink.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94804119ACEF93002DA7BB /* manPink.atlas */; };
+		4C94804919ACEF93002DA7BB /* manRainbow.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94804219ACEF93002DA7BB /* manRainbow.atlas */; };
+		4C94804A19ACEF93002DA7BB /* manYellow.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94804319ACEF93002DA7BB /* manYellow.atlas */; };
+		4C94805019AD069F002DA7BB /* TDGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C94804F19AD069F002DA7BB /* TDGUtils.mm */; };
+		4C94805B19AD1049002DA7BB /* TDGTelephonePole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94805219AD087B002DA7BB /* TDGTelephonePole.m */; };
+		4C94805C19AD104F002DA7BB /* TDGManHole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94805519AD088A002DA7BB /* TDGManHole.m */; };
+		4C94805E19AD188B002DA7BB /* acidDeath.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4C94805D19AD188B002DA7BB /* acidDeath.atlas */; };
+		4C94806119AD1B1E002DA7BB /* TDGCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94806019AD1B1E002DA7BB /* TDGCloud.m */; };
+		4C94806619B10491002DA7BB /* TDGGameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94806519B10491002DA7BB /* TDGGameKitHelper.m */; };
+		4CB11B3819A93EF9008DEA87 /* telephonePole.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B3719A93EF9008DEA87 /* telephonePole.png */; };
+		4CB11B3A19A93EFF008DEA87 /* manHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B3919A93EFF008DEA87 /* manHole.png */; };
+		4CB11B3C19A971BB008DEA87 /* acidSplat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B3B19A971BB008DEA87 /* acidSplat.atlas */; };
+		4CB11B4019A97FC2008DEA87 /* ElectricSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B3F19A97FC2008DEA87 /* ElectricSmoke.sks */; };
+		4CB11B4619ABB178008DEA87 /* cloud_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B4519ABB178008DEA87 /* cloud_2.png */; };
+		4CB11B4A19ABB778008DEA87 /* cloudFlash.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B4919ABB778008DEA87 /* cloudFlash.atlas */; };
+		4CB11B4E19ABC0EA008DEA87 /* Gorefest.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B4D19ABC0EA008DEA87 /* Gorefest.otf */; };
+		4CB11B5019ABC290008DEA87 /* TDGGameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB11B4F19ABC290008DEA87 /* TDGGameData.m */; };
+		4CB11B5519ABD282008DEA87 /* electricDeath.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B5419ABD282008DEA87 /* electricDeath.atlas */; };
+		4CB11B5A19AC163B008DEA87 /* TDGSpriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB11B5919AC163B008DEA87 /* TDGSpriteButton.m */; };
+		4CB11B6119AC2038008DEA87 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB11B6019AC2038008DEA87 /* MainMenuScene.m */; };
+		4CB11B6319AC20A7008DEA87 /* AcidStormTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB11B6219AC20A7008DEA87 /* AcidStormTitle.png */; };
+		4CB11B6619AC25FE008DEA87 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB11B6519AC25FD008DEA87 /* GameOverScene.m */; };
+		4CC8D64519B0EB4E0020EFD3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC8D64419B0EB4E0020EFD3 /* Social.framework */; };
+		4CC8D65019B24D4F0020EFD3 /* TDGAchievementsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8D64F19B24D4F0020EFD3 /* TDGAchievementsHelper.m */; };
+		4CC8D65219B2816F0020EFD3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC8D65119B2816F0020EFD3 /* iAd.framework */; };
+		4CCC5FD619B804CC0045337D /* game_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC5FD319B804CC0045337D /* game_BG.png */; };
+		4CCC5FD719B804CC0045337D /* menu_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC5FD419B804CC0045337D /* menu_BG.png */; };
+		4CCC5FD819B804CC0045337D /* shop_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC5FD519B804CC0045337D /* shop_BG.png */; };
+		4CCD57BC19AE31BF00EB8A32 /* TDGShopScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD57BB19AE31BF00EB8A32 /* TDGShopScene.m */; };
+		4CD0701419B48CA4006F141B /* Lightning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0701319B48CA4006F141B /* Lightning.wav */; };
+		4CD0701A19B497FE006F141B /* electricDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0701919B497FE006F141B /* electricDeath.wav */; };
+		4CD0701C19B49C8A006F141B /* PlayButtonSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0701B19B49C89006F141B /* PlayButtonSound.wav */; };
+		4CD0702219B61723006F141B /* acidDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0702119B61723006F141B /* acidDeath.wav */; };
+		4CD0703219B6BF46006F141B /* treeBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0703119B6BF46006F141B /* treeBG.png */; };
+		4CD0703C19B7AF4D006F141B /* g3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0703B19B7AF4D006F141B /* g3.png */; };
+		4CE2A9F719A43975003F1824 /* AcidSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2A9F519A43975003F1824 /* AcidSmoke.sks */; };
+		4CE2A9F819A43975003F1824 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2A9F619A43975003F1824 /* spark.png */; };
+		4CE2AA0019A44306003F1824 /* ElectricSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4CE2A9FF19A44306003F1824 /* ElectricSpark.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C34BD2519A43502002C606A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C34BCED19A43501002C606A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C34BCF419A43502002C606A;
+			remoteInfo = "Acid Storm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C016EDC19E1D19B0056789F /* manSkeleton.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manSkeleton.atlas; sourceTree = "<group>"; };
+		4C016EDE19E219640056789F /* manPumpkin.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manPumpkin.atlas; sourceTree = "<group>"; };
+		4C016EE019E2201E0056789F /* manRed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manRed.atlas; sourceTree = "<group>"; };
+		4C016EE219E2256D0056789F /* ShopScene.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ShopScene.atlas; sourceTree = "<group>"; };
+		4C2A813319A7E62900B1BD61 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		4C34BCF519A43502002C606A /* Acid Storm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acid Storm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C34BCF819A43502002C606A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C34BCFA19A43502002C606A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C34BCFC19A43502002C606A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C34BCFE19A43502002C606A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4C34BD0219A43502002C606A /* Acid Storm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acid Storm-Info.plist"; sourceTree = "<group>"; };
+		4C34BD0419A43502002C606A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C34BD0619A43502002C606A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C34BD0819A43502002C606A /* Acid Storm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acid Storm-Prefix.pch"; sourceTree = "<group>"; };
+		4C34BD0919A43502002C606A /* TDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDGAppDelegate.h; sourceTree = "<group>"; };
+		4C34BD0A19A43502002C606A /* TDGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDGAppDelegate.m; sourceTree = "<group>"; };
+		4C34BD0D19A43502002C606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4C34BD1019A43502002C606A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4C34BD1219A43502002C606A /* TDGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDGViewController.h; sourceTree = "<group>"; };
+		4C34BD1319A43502002C606A /* TDGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDGViewController.m; sourceTree = "<group>"; };
+		4C34BD1519A43502002C606A /* TDGGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDGGameScene.h; sourceTree = "<group>"; };
+		4C34BD1619A43502002C606A /* TDGGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDGGameScene.m; sourceTree = "<group>"; };
+		4C34BD1A19A43502002C606A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C34BD2019A43502002C606A /* Acid StormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acid StormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C34BD2119A43502002C606A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C34BD2919A43502002C606A /* Acid StormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acid StormTests-Info.plist"; sourceTree = "<group>"; };
+		4C34BD2B19A43502002C606A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C34BD2D19A43502002C606A /* Acid_StormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acid_StormTests.m; sourceTree = "<group>"; };
+		4C45DA7E19ABF6D5007C14DB /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		4C45DA8419AC023A007C14DB /* MenuSceneSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSceneSuper.h; sourceTree = "<group>"; };
+		4C45DA8519AC023A007C14DB /* MenuSceneSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSceneSuper.m; sourceTree = "<group>"; };
+		4C4728E719B167E400D84114 /* manStillFrames.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manStillFrames.atlas; sourceTree = "<group>"; };
+		4C4951E319A9088000CC2CD1 /* acidBubble.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = acidBubble.atlas; sourceTree = "<group>"; };
+		4C553F1419BA23F600ED73D3 /* GameCenterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameCenterButton.png; sourceTree = "<group>"; };
+		4C553F1619BA251C00ED73D3 /* ShopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShopButton.png; sourceTree = "<group>"; };
+		4C69E32019B3A55C00BB0947 /* BG_Loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BG_Loop.wav; sourceTree = "<group>"; };
+		4C69E32119B3A55C00BB0947 /* bloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bloop.wav; sourceTree = "<group>"; };
+		4C69E32719B3A67000BB0947 /* TDGAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDGAudio.h; path = "Acid Storm/AS_SoundAssets/TDGAudio.h"; sourceTree = "<group>"; };
+		4C69E32819B3A67000BB0947 /* TDGAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDGAudio.m; path = "Acid Storm/AS_SoundAssets/TDGAudio.m"; sourceTree = "<group>"; };
+		4C69E32A19B3B3A700BB0947 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C69E32C19B3B3B400BB0947 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C72806319B2269E005790FC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		4C94803D19ACEF93002DA7BB /* manBlack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manBlack.atlas; sourceTree = "<group>"; };
+		4C94803E19ACEF93002DA7BB /* manBlue.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manBlue.atlas; sourceTree = "<group>"; };
+		4C94803F19ACEF93002DA7BB /* manGreen.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manGreen.atlas; sourceTree = "<group>"; };
+		4C94804019ACEF93002DA7BB /* manNone.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manNone.atlas; sourceTree = "<group>"; };
+		4C94804119ACEF93002DA7BB /* manPink.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manPink.atlas; sourceTree = "<group>"; };
+		4C94804219ACEF93002DA7BB /* manRainbow.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manRainbow.atlas; sourceTree = "<group>"; };
+		4C94804319ACEF93002DA7BB /* manYellow.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = manYellow.atlas; sourceTree = "<group>"; };
+		4C94804E19AD069F002DA7BB /* TDGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGUtils.h; sourceTree = "<group>"; };
+		4C94804F19AD069F002DA7BB /* TDGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TDGUtils.mm; sourceTree = "<group>"; };
+		4C94805119AD087B002DA7BB /* TDGTelephonePole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGTelephonePole.h; sourceTree = "<group>"; };
+		4C94805219AD087B002DA7BB /* TDGTelephonePole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGTelephonePole.m; sourceTree = "<group>"; };
+		4C94805419AD088A002DA7BB /* TDGManHole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGManHole.h; sourceTree = "<group>"; };
+		4C94805519AD088A002DA7BB /* TDGManHole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGManHole.m; sourceTree = "<group>"; };
+		4C94805D19AD188B002DA7BB /* acidDeath.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = acidDeath.atlas; sourceTree = "<group>"; };
+		4C94805F19AD1B1E002DA7BB /* TDGCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGCloud.h; sourceTree = "<group>"; };
+		4C94806019AD1B1E002DA7BB /* TDGCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGCloud.m; sourceTree = "<group>"; };
+		4C94806419B10491002DA7BB /* TDGGameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGGameKitHelper.h; sourceTree = "<group>"; };
+		4C94806519B10491002DA7BB /* TDGGameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGGameKitHelper.m; sourceTree = "<group>"; };
+		4CB11B3719A93EF9008DEA87 /* telephonePole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telephonePole.png; sourceTree = "<group>"; };
+		4CB11B3919A93EFF008DEA87 /* manHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manHole.png; sourceTree = "<group>"; };
+		4CB11B3B19A971BB008DEA87 /* acidSplat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = acidSplat.atlas; sourceTree = "<group>"; };
+		4CB11B3F19A97FC2008DEA87 /* ElectricSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ElectricSmoke.sks; sourceTree = "<group>"; };
+		4CB11B4519ABB178008DEA87 /* cloud_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_2.png; sourceTree = "<group>"; };
+		4CB11B4919ABB778008DEA87 /* cloudFlash.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cloudFlash.atlas; sourceTree = "<group>"; };
+		4CB11B4D19ABC0EA008DEA87 /* Gorefest.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Gorefest.otf; path = ../Gorefest.otf; sourceTree = "<group>"; };
+		4CB11B4F19ABC290008DEA87 /* TDGGameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGGameData.m; sourceTree = "<group>"; };
+		4CB11B5119ABC2FA008DEA87 /* TDGGameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGGameData.h; sourceTree = "<group>"; };
+		4CB11B5419ABD282008DEA87 /* electricDeath.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = electricDeath.atlas; sourceTree = "<group>"; };
+		4CB11B5819AC1613008DEA87 /* TDGSpriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGSpriteButton.h; sourceTree = "<group>"; };
+		4CB11B5919AC163B008DEA87 /* TDGSpriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGSpriteButton.m; sourceTree = "<group>"; };
+		4CB11B5F19AC2038008DEA87 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		4CB11B6019AC2038008DEA87 /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		4CB11B6219AC20A7008DEA87 /* AcidStormTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcidStormTitle.png; sourceTree = "<group>"; };
+		4CB11B6419AC25FD008DEA87 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		4CB11B6519AC25FD008DEA87 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		4CC8D64419B0EB4E0020EFD3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4CC8D64C19B132D00020EFD3 /* ASConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASConstants.h; sourceTree = "<group>"; };
+		4CC8D64E19B24D4F0020EFD3 /* TDGAchievementsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGAchievementsHelper.h; sourceTree = "<group>"; };
+		4CC8D64F19B24D4F0020EFD3 /* TDGAchievementsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGAchievementsHelper.m; sourceTree = "<group>"; };
+		4CC8D65119B2816F0020EFD3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		4CCC5FD319B804CC0045337D /* game_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_BG.png; sourceTree = "<group>"; };
+		4CCC5FD419B804CC0045337D /* menu_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_BG.png; sourceTree = "<group>"; };
+		4CCC5FD519B804CC0045337D /* shop_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_BG.png; sourceTree = "<group>"; };
+		4CCD57BA19AE31BF00EB8A32 /* TDGShopScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGShopScene.h; sourceTree = "<group>"; };
+		4CCD57BB19AE31BF00EB8A32 /* TDGShopScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGShopScene.m; sourceTree = "<group>"; };
+		4CD0701319B48CA4006F141B /* Lightning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Lightning.wav; path = ../Lightning.wav; sourceTree = "<group>"; };
+		4CD0701919B497FE006F141B /* electricDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricDeath.wav; sourceTree = "<group>"; };
+		4CD0701B19B49C89006F141B /* PlayButtonSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PlayButtonSound.wav; sourceTree = "<group>"; };
+		4CD0702119B61723006F141B /* acidDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = acidDeath.wav; path = ../acidDeath.wav; sourceTree = "<group>"; };
+		4CD0703119B6BF46006F141B /* treeBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treeBG.png; sourceTree = "<group>"; };
+		4CD0703B19B7AF4D006F141B /* g3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g3.png; sourceTree = "<group>"; };
+		4CE2A9F519A43975003F1824 /* AcidSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AcidSmoke.sks; sourceTree = "<group>"; };
+		4CE2A9F619A43975003F1824 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		4CE2A9FF19A44306003F1824 /* ElectricSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ElectricSpark.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C34BCF219A43502002C606A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34BCF919A43502002C606A /* Foundation.framework in Frameworks */,
+				4C69E32D19B3B3B400BB0947 /* AudioToolbox.framework in Frameworks */,
+				4C69E32B19B3B3A700BB0947 /* AVFoundation.framework in Frameworks */,
+				4CC8D65219B2816F0020EFD3 /* iAd.framework in Frameworks */,
+				4C72806419B2269E005790FC /* GameKit.framework in Frameworks */,
+				4CC8D64519B0EB4E0020EFD3 /* Social.framework in Frameworks */,
+				4C34BCFB19A43502002C606A /* CoreGraphics.framework in Frameworks */,
+				4C34BCFD19A43502002C606A /* UIKit.framework in Frameworks */,
+				4C34BCFF19A43502002C606A /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C34BD1D19A43502002C606A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34BD2219A43502002C606A /* XCTest.framework in Frameworks */,
+				4C34BD2419A43502002C606A /* UIKit.framework in Frameworks */,
+				4C34BD2319A43502002C606A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C34BCEC19A43501002C606A = {
+			isa = PBXGroup;
+			children = (
+				4CC8D64D19B134270020EFD3 /* Helpers */,
+				4CB11B6719AC260E008DEA87 /* MenuScenes */,
+				4C96C29B19AC10CB00385C6E /* SuperClass */,
+				4C34BD0019A43502002C606A /* Acid Storm */,
+				4C34BCF719A43502002C606A /* Frameworks */,
+				4C34BCF619A43502002C606A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C34BCF619A43502002C606A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BCF519A43502002C606A /* Acid Storm.app */,
+				4C34BD2019A43502002C606A /* Acid StormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C34BCF719A43502002C606A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C69E32C19B3B3B400BB0947 /* AudioToolbox.framework */,
+				4C69E32A19B3B3A700BB0947 /* AVFoundation.framework */,
+				4CC8D65119B2816F0020EFD3 /* iAd.framework */,
+				4C72806319B2269E005790FC /* GameKit.framework */,
+				4CC8D64419B0EB4E0020EFD3 /* Social.framework */,
+				4C34BCF819A43502002C606A /* Foundation.framework */,
+				4C34BCFA19A43502002C606A /* CoreGraphics.framework */,
+				4C34BCFC19A43502002C606A /* UIKit.framework */,
+				4C34BCFE19A43502002C606A /* SpriteKit.framework */,
+				4C34BD2119A43502002C606A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C34BD0019A43502002C606A /* Acid Storm */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BD0919A43502002C606A /* TDGAppDelegate.h */,
+				4C34BD0A19A43502002C606A /* TDGAppDelegate.m */,
+				4C34BD0C19A43502002C606A /* Main_iPhone.storyboard */,
+				4C34BD0F19A43502002C606A /* Main_iPad.storyboard */,
+				4C94806719B10545002DA7BB /* Controller */,
+				4C34BD1519A43502002C606A /* TDGGameScene.h */,
+				4C34BD1619A43502002C606A /* TDGGameScene.m */,
+				4C94805719AD0895002DA7BB /* Sprites */,
+				4C45DA7A19ABF33B007C14DB /* Model */,
+				4C34BD1A19A43502002C606A /* Images.xcassets */,
+				4C69E31C19B3A55C00BB0947 /* AS_SoundAssets */,
+				4CB11B4D19ABC0EA008DEA87 /* Gorefest.otf */,
+				4C4951DD19A8FF5000CC2CD1 /* Particles */,
+				4C4728E619B1649300D84114 /* Images */,
+				4C34BD0119A43502002C606A /* Supporting Files */,
+			);
+			path = "Acid Storm";
+			sourceTree = "<group>";
+		};
+		4C34BD0119A43502002C606A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BD0219A43502002C606A /* Acid Storm-Info.plist */,
+				4C34BD2719A43502002C606A /* Acid StormTests */,
+				4C34BD0319A43502002C606A /* InfoPlist.strings */,
+				4C34BD0619A43502002C606A /* main.m */,
+				4C34BD0819A43502002C606A /* Acid Storm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C34BD2719A43502002C606A /* Acid StormTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BD2D19A43502002C606A /* Acid_StormTests.m */,
+				4C34BD2819A43502002C606A /* Supporting Files */,
+			);
+			path = "Acid StormTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		4C34BD2819A43502002C606A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BD2919A43502002C606A /* Acid StormTests-Info.plist */,
+				4C34BD2A19A43502002C606A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C45DA7A19ABF33B007C14DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CB11B4F19ABC290008DEA87 /* TDGGameData.m */,
+				4CB11B5119ABC2FA008DEA87 /* TDGGameData.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4C4728E619B1649300D84114 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC5FD219B804CC0045337D /* BG */,
+				4CD0703B19B7AF4D006F141B /* g3.png */,
+				4CD0703119B6BF46006F141B /* treeBG.png */,
+				4C4951DE19A9085D00CC2CD1 /* Texture Atlases */,
+				4C2A813319A7E62900B1BD61 /* drop.png */,
+				4C553F1419BA23F600ED73D3 /* GameCenterButton.png */,
+				4C553F1619BA251C00ED73D3 /* ShopButton.png */,
+				4CB11B6219AC20A7008DEA87 /* AcidStormTitle.png */,
+				4C45DA7E19ABF6D5007C14DB /* PlayButton.png */,
+				4CB11B4519ABB178008DEA87 /* cloud_2.png */,
+				4CB11B3719A93EF9008DEA87 /* telephonePole.png */,
+				4CB11B3919A93EFF008DEA87 /* manHole.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4C4951DD19A8FF5000CC2CD1 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				4CE2A9F519A43975003F1824 /* AcidSmoke.sks */,
+				4CE2A9F619A43975003F1824 /* spark.png */,
+				4CE2A9FF19A44306003F1824 /* ElectricSpark.sks */,
+				4CB11B3F19A97FC2008DEA87 /* ElectricSmoke.sks */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		4C4951DE19A9085D00CC2CD1 /* Texture Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				4C016EE219E2256D0056789F /* ShopScene.atlas */,
+				4C4728E719B167E400D84114 /* manStillFrames.atlas */,
+				4C94803C19ACEF93002DA7BB /* Hair */,
+				4C94805D19AD188B002DA7BB /* acidDeath.atlas */,
+				4CB11B5419ABD282008DEA87 /* electricDeath.atlas */,
+				4CB11B4919ABB778008DEA87 /* cloudFlash.atlas */,
+				4CB11B3B19A971BB008DEA87 /* acidSplat.atlas */,
+				4C4951E319A9088000CC2CD1 /* acidBubble.atlas */,
+			);
+			name = "Texture Atlases";
+			sourceTree = "<group>";
+		};
+		4C69E31C19B3A55C00BB0947 /* AS_SoundAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4CD0701B19B49C89006F141B /* PlayButtonSound.wav */,
+				4CD0701919B497FE006F141B /* electricDeath.wav */,
+				4CD0702119B61723006F141B /* acidDeath.wav */,
+				4CD0701319B48CA4006F141B /* Lightning.wav */,
+				4C69E32019B3A55C00BB0947 /* BG_Loop.wav */,
+				4C69E32119B3A55C00BB0947 /* bloop.wav */,
+			);
+			path = AS_SoundAssets;
+			sourceTree = "<group>";
+		};
+		4C94803C19ACEF93002DA7BB /* Hair */ = {
+			isa = PBXGroup;
+			children = (
+				4C016EE019E2201E0056789F /* manRed.atlas */,
+				4C016EDE19E219640056789F /* manPumpkin.atlas */,
+				4C016EDC19E1D19B0056789F /* manSkeleton.atlas */,
+				4C94803D19ACEF93002DA7BB /* manBlack.atlas */,
+				4C94803E19ACEF93002DA7BB /* manBlue.atlas */,
+				4C94803F19ACEF93002DA7BB /* manGreen.atlas */,
+				4C94804019ACEF93002DA7BB /* manNone.atlas */,
+				4C94804119ACEF93002DA7BB /* manPink.atlas */,
+				4C94804219ACEF93002DA7BB /* manRainbow.atlas */,
+				4C94804319ACEF93002DA7BB /* manYellow.atlas */,
+			);
+			path = Hair;
+			sourceTree = "<group>";
+		};
+		4C94805719AD0895002DA7BB /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				4C94805F19AD1B1E002DA7BB /* TDGCloud.h */,
+				4C94806019AD1B1E002DA7BB /* TDGCloud.m */,
+				4C94805119AD087B002DA7BB /* TDGTelephonePole.h */,
+				4C94805219AD087B002DA7BB /* TDGTelephonePole.m */,
+				4C94805419AD088A002DA7BB /* TDGManHole.h */,
+				4C94805519AD088A002DA7BB /* TDGManHole.m */,
+			);
+			name = Sprites;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4C94806719B10545002DA7BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C34BD1219A43502002C606A /* TDGViewController.h */,
+				4C34BD1319A43502002C606A /* TDGViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C96C29B19AC10CB00385C6E /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				4CB11B5919AC163B008DEA87 /* TDGSpriteButton.m */,
+				4CB11B5819AC1613008DEA87 /* TDGSpriteButton.h */,
+				4C45DA8419AC023A007C14DB /* MenuSceneSuper.h */,
+				4C45DA8519AC023A007C14DB /* MenuSceneSuper.m */,
+			);
+			name = SuperClass;
+			sourceTree = "<group>";
+		};
+		4CB11B6719AC260E008DEA87 /* MenuScenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CB11B6419AC25FD008DEA87 /* GameOverScene.h */,
+				4CB11B6519AC25FD008DEA87 /* GameOverScene.m */,
+				4CB11B5F19AC2038008DEA87 /* MainMenuScene.h */,
+				4CB11B6019AC2038008DEA87 /* MainMenuScene.m */,
+				4CCD57BA19AE31BF00EB8A32 /* TDGShopScene.h */,
+				4CCD57BB19AE31BF00EB8A32 /* TDGShopScene.m */,
+			);
+			name = MenuScenes;
+			sourceTree = "<group>";
+		};
+		4CC8D64D19B134270020EFD3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC8D64E19B24D4F0020EFD3 /* TDGAchievementsHelper.h */,
+				4CC8D64F19B24D4F0020EFD3 /* TDGAchievementsHelper.m */,
+				4C94806419B10491002DA7BB /* TDGGameKitHelper.h */,
+				4C94806519B10491002DA7BB /* TDGGameKitHelper.m */,
+				4C94804E19AD069F002DA7BB /* TDGUtils.h */,
+				4C94804F19AD069F002DA7BB /* TDGUtils.mm */,
+				4C69E32719B3A67000BB0947 /* TDGAudio.h */,
+				4C69E32819B3A67000BB0947 /* TDGAudio.m */,
+				4CC8D64C19B132D00020EFD3 /* ASConstants.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4CCC5FD219B804CC0045337D /* BG */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC5FD319B804CC0045337D /* game_BG.png */,
+				4CCC5FD419B804CC0045337D /* menu_BG.png */,
+				4CCC5FD519B804CC0045337D /* shop_BG.png */,
+			);
+			path = BG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C34BCF419A43502002C606A /* Acid Storm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C34BD3119A43502002C606A /* Build configuration list for PBXNativeTarget "Acid Storm" */;
+			buildPhases = (
+				4C34BCF119A43502002C606A /* Sources */,
+				4C34BCF219A43502002C606A /* Frameworks */,
+				4C34BCF319A43502002C606A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acid Storm";
+			productName = "Acid Storm";
+			productReference = 4C34BCF519A43502002C606A /* Acid Storm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C34BD1F19A43502002C606A /* Acid StormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C34BD3419A43502002C606A /* Build configuration list for PBXNativeTarget "Acid StormTests" */;
+			buildPhases = (
+				4C34BD1C19A43502002C606A /* Sources */,
+				4C34BD1D19A43502002C606A /* Frameworks */,
+				4C34BD1E19A43502002C606A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C34BD2619A43502002C606A /* PBXTargetDependency */,
+			);
+			name = "Acid StormTests";
+			productName = "Acid StormTests";
+			productReference = 4C34BD2019A43502002C606A /* Acid StormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C34BCED19A43501002C606A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael McCafferty";
+				TargetAttributes = {
+					4C34BCF419A43502002C606A = {
+						DevelopmentTeam = 5JJ2GJ675W;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					4C34BD1F19A43502002C606A = {
+						TestTargetID = 4C34BCF419A43502002C606A;
+					};
+				};
+			};
+			buildConfigurationList = 4C34BCF019A43501002C606A /* Build configuration list for PBXProject "Acid Storm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C34BCEC19A43501002C606A;
+			productRefGroup = 4C34BCF619A43502002C606A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C34BCF419A43502002C606A /* Acid Storm */,
+				4C34BD1F19A43502002C606A /* Acid StormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C34BCF319A43502002C606A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C016EE119E2201E0056789F /* manRed.atlas in Resources */,
+				4CE2AA0019A44306003F1824 /* ElectricSpark.sks in Resources */,
+				4CB11B3A19A93EFF008DEA87 /* manHole.png in Resources */,
+				4C34BD1B19A43502002C606A /* Images.xcassets in Resources */,
+				4CB11B3819A93EF9008DEA87 /* telephonePole.png in Resources */,
+				4C4728E819B167E400D84114 /* manStillFrames.atlas in Resources */,
+				4C69E32519B3A55C00BB0947 /* BG_Loop.wav in Resources */,
+				4CCC5FD719B804CC0045337D /* menu_BG.png in Resources */,
+				4C34BD1119A43502002C606A /* Main_iPad.storyboard in Resources */,
+				4C94804919ACEF93002DA7BB /* manRainbow.atlas in Resources */,
+				4C94804519ACEF93002DA7BB /* manBlue.atlas in Resources */,
+				4C016EDF19E219640056789F /* manPumpkin.atlas in Resources */,
+				4CE2A9F719A43975003F1824 /* AcidSmoke.sks in Resources */,
+				4CE2A9F819A43975003F1824 /* spark.png in Resources */,
+				4CD0703C19B7AF4D006F141B /* g3.png in Resources */,
+				4C94805E19AD188B002DA7BB /* acidDeath.atlas in Resources */,
+				4CB11B3C19A971BB008DEA87 /* acidSplat.atlas in Resources */,
+				4C94804A19ACEF93002DA7BB /* manYellow.atlas in Resources */,
+				4C2A813419A7E62900B1BD61 /* drop.png in Resources */,
+				4CD0703219B6BF46006F141B /* treeBG.png in Resources */,
+				4C34BD0E19A43502002C606A /* Main_iPhone.storyboard in Resources */,
+				4C553F1519BA23F600ED73D3 /* GameCenterButton.png in Resources */,
+				4C4951E419A9088000CC2CD1 /* acidBubble.atlas in Resources */,
+				4CD0701419B48CA4006F141B /* Lightning.wav in Resources */,
+				4CCC5FD619B804CC0045337D /* game_BG.png in Resources */,
+				4CD0701A19B497FE006F141B /* electricDeath.wav in Resources */,
+				4CB11B4A19ABB778008DEA87 /* cloudFlash.atlas in Resources */,
+				4CD0702219B61723006F141B /* acidDeath.wav in Resources */,
+				4C016EDD19E1D19B0056789F /* manSkeleton.atlas in Resources */,
+				4CB11B4E19ABC0EA008DEA87 /* Gorefest.otf in Resources */,
+				4CB11B5519ABD282008DEA87 /* electricDeath.atlas in Resources */,
+				4C69E32619B3A55C00BB0947 /* bloop.wav in Resources */,
+				4C94804719ACEF93002DA7BB /* manNone.atlas in Resources */,
+				4CCC5FD819B804CC0045337D /* shop_BG.png in Resources */,
+				4CB11B6319AC20A7008DEA87 /* AcidStormTitle.png in Resources */,
+				4CB11B4619ABB178008DEA87 /* cloud_2.png in Resources */,
+				4C553F1719BA251C00ED73D3 /* ShopButton.png in Resources */,
+				4CB11B4019A97FC2008DEA87 /* ElectricSmoke.sks in Resources */,
+				4C45DA7F19ABF6D5007C14DB /* PlayButton.png in Resources */,
+				4C016EE319E2256D0056789F /* ShopScene.atlas in Resources */,
+				4C94804419ACEF93002DA7BB /* manBlack.atlas in Resources */,
+				4CD0701C19B49C8A006F141B /* PlayButtonSound.wav in Resources */,
+				4C94804619ACEF93002DA7BB /* manGreen.atlas in Resources */,
+				4C94804819ACEF93002DA7BB /* manPink.atlas in Resources */,
+				4C34BD0519A43502002C606A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C34BD1E19A43502002C606A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34BD2C19A43502002C606A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C34BCF119A43502002C606A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94805C19AD104F002DA7BB /* TDGManHole.m in Sources */,
+				4C94805B19AD1049002DA7BB /* TDGTelephonePole.m in Sources */,
+				4C34BD0B19A43502002C606A /* TDGAppDelegate.m in Sources */,
+				4C94806119AD1B1E002DA7BB /* TDGCloud.m in Sources */,
+				4CB11B6619AC25FE008DEA87 /* GameOverScene.m in Sources */,
+				4C45DA8619AC023A007C14DB /* MenuSceneSuper.m in Sources */,
+				4CCD57BC19AE31BF00EB8A32 /* TDGShopScene.m in Sources */,
+				4CB11B6119AC2038008DEA87 /* MainMenuScene.m in Sources */,
+				4C34BD0719A43502002C606A /* main.m in Sources */,
+				4CB11B5A19AC163B008DEA87 /* TDGSpriteButton.m in Sources */,
+				4C34BD1719A43502002C606A /* TDGGameScene.m in Sources */,
+				4CB11B5019ABC290008DEA87 /* TDGGameData.m in Sources */,
+				4C34BD1419A43502002C606A /* TDGViewController.m in Sources */,
+				4CC8D65019B24D4F0020EFD3 /* TDGAchievementsHelper.m in Sources */,
+				4C94805019AD069F002DA7BB /* TDGUtils.mm in Sources */,
+				4C69E32919B3A67000BB0947 /* TDGAudio.m in Sources */,
+				4C94806619B10491002DA7BB /* TDGGameKitHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C34BD1C19A43502002C606A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34BD2E19A43502002C606A /* Acid_StormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C34BD2619A43502002C606A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C34BCF419A43502002C606A /* Acid Storm */;
+			targetProxy = 4C34BD2519A43502002C606A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C34BD0319A43502002C606A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34BD0419A43502002C606A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C34BD0C19A43502002C606A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34BD0D19A43502002C606A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4C34BD0F19A43502002C606A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34BD1019A43502002C606A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4C34BD2A19A43502002C606A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34BD2B19A43502002C606A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C34BD2F19A43502002C606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C34BD3019A43502002C606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C34BD3219A43502002C606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acid Storm/Acid Storm-Prefix.pch";
+				INFOPLIST_FILE = "Acid Storm/Acid Storm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C34BD3319A43502002C606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acid Storm/Acid Storm-Prefix.pch";
+				INFOPLIST_FILE = "Acid Storm/Acid Storm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C34BD3519A43502002C606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Acid Storm.app/Acid Storm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acid Storm/Acid Storm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acid StormTests/Acid StormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C34BD3619A43502002C606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Acid Storm.app/Acid Storm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acid Storm/Acid Storm-Prefix.pch";
+				INFOPLIST_FILE = "Acid StormTests/Acid StormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C34BCF019A43501002C606A /* Build configuration list for PBXProject "Acid Storm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C34BD2F19A43502002C606A /* Debug */,
+				4C34BD3019A43502002C606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C34BD3119A43502002C606A /* Build configuration list for PBXNativeTarget "Acid Storm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C34BD3219A43502002C606A /* Debug */,
+				4C34BD3319A43502002C606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C34BD3419A43502002C606A /* Build configuration list for PBXNativeTarget "Acid StormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C34BD3519A43502002C606A /* Debug */,
+				4C34BD3619A43502002C606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C34BCED19A43501002C606A /* Project object */;
+}
